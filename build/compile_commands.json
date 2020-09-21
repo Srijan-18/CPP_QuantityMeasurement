@@ -1,0 +1,32 @@
+[
+{
+  "directory": "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/executeTests.dir/includes_CXX.rsp -g -o CMakeFiles\\executeTests.dir\\main\\Feet.cpp.obj -c F:\\Fellowship_CPP\\Stage_3\\QuantityMeasurement\\main\\Feet.cpp",
+  "file": "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/main/Feet.cpp"
+},
+{
+  "directory": "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/executeTests.dir/includes_CXX.rsp -g -o CMakeFiles\\executeTests.dir\\test\\FeetTest.cpp.obj -c F:\\Fellowship_CPP\\Stage_3\\QuantityMeasurement\\test\\FeetTest.cpp",
+  "file": "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/test/FeetTest.cpp"
+},
+{
+  "directory": "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/build/googletest/googlemock",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/gmock_main.dir/includes_CXX.rsp -g -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c F:\\Fellowship_CPP\\Stage_3\\QuantityMeasurement\\googletest\\googlemock\\src\\gmock_main.cc",
+  "file": "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/build/googletest/googlemock",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/gmock.dir/includes_CXX.rsp -g -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c F:\\Fellowship_CPP\\Stage_3\\QuantityMeasurement\\googletest\\googlemock\\src\\gmock-all.cc",
+  "file": "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/build/googletest/googletest",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/gtest.dir/includes_CXX.rsp -g -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c F:\\Fellowship_CPP\\Stage_3\\QuantityMeasurement\\googletest\\googletest\\src\\gtest-all.cc",
+  "file": "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/build/googletest/googletest",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/gtest_main.dir/includes_CXX.rsp -g -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c F:\\Fellowship_CPP\\Stage_3\\QuantityMeasurement\\googletest\\googletest\\src\\gtest_main.cc",
+  "file": "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/googletest/googletest/src/gtest_main.cc"
+}
+]

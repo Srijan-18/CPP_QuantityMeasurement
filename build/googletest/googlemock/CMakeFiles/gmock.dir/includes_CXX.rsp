@@ -1,0 +1,1 @@
+-IF:/Fellowship_CPP/Stage_3/QuantityMeasurement/googletest/googlemock/include -IF:/Fellowship_CPP/Stage_3/QuantityMeasurement/googletest/googlemock -isystem F:/Fellowship_CPP/Stage_3/QuantityMeasurement/googletest/googletest/include -isystem F:/Fellowship_CPP/Stage_3/QuantityMeasurement/googletest/googletest
