@@ -11,5 +11,5 @@ public:
     bool operator!=(Unit *) const;
     double get_conversion_factor() const;
     
-    static const Unit FEET, INCH, YARD;
+    static const Unit FEET, INCH, YARD, CM;
 };
