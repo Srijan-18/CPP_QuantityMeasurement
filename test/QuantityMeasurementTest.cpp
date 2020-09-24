@@ -81,6 +81,14 @@ TEST(InchTests, given_ten_inch_and_ten_inch_when_compared_should_be_equal)
     ASSERT_TRUE(first_quantity_in_inch == second_quantity_in_inch);
 }
 
+//T.C 1.13
+TEST(YardTests, given_three_feet_and_one_yard_when_equated_should_return_true)
+{
+    Quantity quantity_in_yard(Unit::YARD, 1);
+    Quantity quantity_in_feet(Unit::FEET, 3);
+    ASSERT_TRUE(quantity_in_yard == quantity_in_feet);
+}
+
 int main(int argc, char **argv)
 {
     testing::InitGoogleTest(&argc, argv);
