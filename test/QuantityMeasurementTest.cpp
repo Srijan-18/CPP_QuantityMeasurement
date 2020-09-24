@@ -89,6 +89,14 @@ TEST(YardTests, given_three_feet_and_one_yard_when_equated_should_return_true)
     ASSERT_TRUE(quantity_in_yard == quantity_in_feet);
 }
 
+//T.C 1.14
+TEST(YardTests, given_one_feet_and_one_yard_when_equated_should_return_false)
+{
+    Quantity quantity_in_yard(Unit::YARD, 1);
+    Quantity quantity_in_feet(Unit::FEET, 1);
+    ASSERT_FALSE(quantity_in_yard == quantity_in_feet);
+}
+
 int main(int argc, char **argv)
 {
     testing::InitGoogleTest(&argc, argv);
