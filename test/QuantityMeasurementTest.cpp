@@ -129,6 +129,14 @@ TEST(CmTests, given_four_inches_and_five_centimeters_when_equated_should_return_
     ASSERT_FALSE(quantity_in_centimeter == quantity_in_inch);
 }
 
+//T.C for U.C 4 (2 inch + 2 inch = 4 inch)
+TEST(AdditionTests, give_two_inch_and_two_inch_when_added_should_return_four_inches)
+{
+    Quantity first_inch_quantity(Unit::INCH, 2.0);
+    Quantity second_inch_quantity(Unit::INCH, 2.0);
+    ASSERT_EQ(4.0, first_inch_quantity.add_quantity(second_inch_quantity));
+}
+
 int main(int argc, char **argv)
 {
     testing::InitGoogleTest(&argc, argv);
