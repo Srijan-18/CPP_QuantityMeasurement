@@ -239,59 +239,86 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest_main.dir\build.make googletest/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
-main/Feet.obj: main/Feet.cpp.obj
+main/model/Quantity.obj: main/model/Quantity.cpp.obj
 
-.PHONY : main/Feet.obj
-
-# target to build an object file
-main/Feet.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/Feet.cpp.obj
-.PHONY : main/Feet.cpp.obj
-
-main/Feet.i: main/Feet.cpp.i
-
-.PHONY : main/Feet.i
-
-# target to preprocess a source file
-main/Feet.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/Feet.cpp.i
-.PHONY : main/Feet.cpp.i
-
-main/Feet.s: main/Feet.cpp.s
-
-.PHONY : main/Feet.s
-
-# target to generate assembly for a file
-main/Feet.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/Feet.cpp.s
-.PHONY : main/Feet.cpp.s
-
-test/FeetTest.obj: test/FeetTest.cpp.obj
-
-.PHONY : test/FeetTest.obj
+.PHONY : main/model/Quantity.obj
 
 # target to build an object file
-test/FeetTest.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/test/FeetTest.cpp.obj
-.PHONY : test/FeetTest.cpp.obj
+main/model/Quantity.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/model/Quantity.cpp.obj
+.PHONY : main/model/Quantity.cpp.obj
 
-test/FeetTest.i: test/FeetTest.cpp.i
+main/model/Quantity.i: main/model/Quantity.cpp.i
 
-.PHONY : test/FeetTest.i
+.PHONY : main/model/Quantity.i
 
 # target to preprocess a source file
-test/FeetTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/test/FeetTest.cpp.i
-.PHONY : test/FeetTest.cpp.i
+main/model/Quantity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/model/Quantity.cpp.i
+.PHONY : main/model/Quantity.cpp.i
 
-test/FeetTest.s: test/FeetTest.cpp.s
+main/model/Quantity.s: main/model/Quantity.cpp.s
 
-.PHONY : test/FeetTest.s
+.PHONY : main/model/Quantity.s
 
 # target to generate assembly for a file
-test/FeetTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/test/FeetTest.cpp.s
-.PHONY : test/FeetTest.cpp.s
+main/model/Quantity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/model/Quantity.cpp.s
+.PHONY : main/model/Quantity.cpp.s
+
+main/model/Unit.obj: main/model/Unit.cpp.obj
+
+.PHONY : main/model/Unit.obj
+
+# target to build an object file
+main/model/Unit.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/model/Unit.cpp.obj
+.PHONY : main/model/Unit.cpp.obj
+
+main/model/Unit.i: main/model/Unit.cpp.i
+
+.PHONY : main/model/Unit.i
+
+# target to preprocess a source file
+main/model/Unit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/model/Unit.cpp.i
+.PHONY : main/model/Unit.cpp.i
+
+main/model/Unit.s: main/model/Unit.cpp.s
+
+.PHONY : main/model/Unit.s
+
+# target to generate assembly for a file
+main/model/Unit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/model/Unit.cpp.s
+.PHONY : main/model/Unit.cpp.s
+
+test/QuantityMeasurementTest.obj: test/QuantityMeasurementTest.cpp.obj
+
+.PHONY : test/QuantityMeasurementTest.obj
+
+# target to build an object file
+test/QuantityMeasurementTest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.obj
+.PHONY : test/QuantityMeasurementTest.cpp.obj
+
+test/QuantityMeasurementTest.i: test/QuantityMeasurementTest.cpp.i
+
+.PHONY : test/QuantityMeasurementTest.i
+
+# target to preprocess a source file
+test/QuantityMeasurementTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.i
+.PHONY : test/QuantityMeasurementTest.cpp.i
+
+test/QuantityMeasurementTest.s: test/QuantityMeasurementTest.cpp.s
+
+.PHONY : test/QuantityMeasurementTest.s
+
+# target to generate assembly for a file
+test/QuantityMeasurementTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.s
+.PHONY : test/QuantityMeasurementTest.cpp.s
 
 # Help Target
 help:
@@ -310,12 +337,15 @@ help:
 	@echo ... gmock_main
 	@echo ... gtest
 	@echo ... gtest_main
-	@echo ... main/Feet.obj
-	@echo ... main/Feet.i
-	@echo ... main/Feet.s
-	@echo ... test/FeetTest.obj
-	@echo ... test/FeetTest.i
-	@echo ... test/FeetTest.s
+	@echo ... main/model/Quantity.obj
+	@echo ... main/model/Quantity.i
+	@echo ... main/model/Quantity.s
+	@echo ... main/model/Unit.obj
+	@echo ... main/model/Unit.i
+	@echo ... main/model/Unit.s
+	@echo ... test/QuantityMeasurementTest.obj
+	@echo ... test/QuantityMeasurementTest.i
+	@echo ... test/QuantityMeasurementTest.s
 .PHONY : help
 
 

@@ -1,13 +1,18 @@
 [
 {
   "directory": "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/build",
-  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/executeTests.dir/includes_CXX.rsp -g -o CMakeFiles\\executeTests.dir\\main\\Feet.cpp.obj -c F:\\Fellowship_CPP\\Stage_3\\QuantityMeasurement\\main\\Feet.cpp",
-  "file": "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/main/Feet.cpp"
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/executeTests.dir/includes_CXX.rsp -g -o CMakeFiles\\executeTests.dir\\main\\model\\Unit.cpp.obj -c F:\\Fellowship_CPP\\Stage_3\\QuantityMeasurement\\main\\model\\Unit.cpp",
+  "file": "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/main/model/Unit.cpp"
 },
 {
   "directory": "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/build",
-  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/executeTests.dir/includes_CXX.rsp -g -o CMakeFiles\\executeTests.dir\\test\\FeetTest.cpp.obj -c F:\\Fellowship_CPP\\Stage_3\\QuantityMeasurement\\test\\FeetTest.cpp",
-  "file": "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/test/FeetTest.cpp"
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/executeTests.dir/includes_CXX.rsp -g -o CMakeFiles\\executeTests.dir\\main\\model\\Quantity.cpp.obj -c F:\\Fellowship_CPP\\Stage_3\\QuantityMeasurement\\main\\model\\Quantity.cpp",
+  "file": "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/main/model/Quantity.cpp"
+},
+{
+  "directory": "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/executeTests.dir/includes_CXX.rsp -g -o CMakeFiles\\executeTests.dir\\test\\QuantityMeasurementTest.cpp.obj -c F:\\Fellowship_CPP\\Stage_3\\QuantityMeasurement\\test\\QuantityMeasurementTest.cpp",
+  "file": "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/test/QuantityMeasurementTest.cpp"
 },
 {
   "directory": "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/build/googletest/googlemock",

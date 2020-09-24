@@ -75,50 +75,66 @@ include CMakeFiles/executeTests.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/executeTests.dir/flags.make
 
-CMakeFiles/executeTests.dir/main/Feet.cpp.obj: CMakeFiles/executeTests.dir/flags.make
-CMakeFiles/executeTests.dir/main/Feet.cpp.obj: CMakeFiles/executeTests.dir/includes_CXX.rsp
-CMakeFiles/executeTests.dir/main/Feet.cpp.obj: ../main/Feet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Fellowship_CPP\Stage_3\QuantityMeasurement\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/executeTests.dir/main/Feet.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\executeTests.dir\main\Feet.cpp.obj -c F:\Fellowship_CPP\Stage_3\QuantityMeasurement\main\Feet.cpp
+CMakeFiles/executeTests.dir/main/model/Unit.cpp.obj: CMakeFiles/executeTests.dir/flags.make
+CMakeFiles/executeTests.dir/main/model/Unit.cpp.obj: CMakeFiles/executeTests.dir/includes_CXX.rsp
+CMakeFiles/executeTests.dir/main/model/Unit.cpp.obj: ../main/model/Unit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Fellowship_CPP\Stage_3\QuantityMeasurement\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/executeTests.dir/main/model/Unit.cpp.obj"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\executeTests.dir\main\model\Unit.cpp.obj -c F:\Fellowship_CPP\Stage_3\QuantityMeasurement\main\model\Unit.cpp
 
-CMakeFiles/executeTests.dir/main/Feet.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/executeTests.dir/main/Feet.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Fellowship_CPP\Stage_3\QuantityMeasurement\main\Feet.cpp > CMakeFiles\executeTests.dir\main\Feet.cpp.i
+CMakeFiles/executeTests.dir/main/model/Unit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/executeTests.dir/main/model/Unit.cpp.i"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Fellowship_CPP\Stage_3\QuantityMeasurement\main\model\Unit.cpp > CMakeFiles\executeTests.dir\main\model\Unit.cpp.i
 
-CMakeFiles/executeTests.dir/main/Feet.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/executeTests.dir/main/Feet.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Fellowship_CPP\Stage_3\QuantityMeasurement\main\Feet.cpp -o CMakeFiles\executeTests.dir\main\Feet.cpp.s
+CMakeFiles/executeTests.dir/main/model/Unit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/executeTests.dir/main/model/Unit.cpp.s"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Fellowship_CPP\Stage_3\QuantityMeasurement\main\model\Unit.cpp -o CMakeFiles\executeTests.dir\main\model\Unit.cpp.s
 
-CMakeFiles/executeTests.dir/test/FeetTest.cpp.obj: CMakeFiles/executeTests.dir/flags.make
-CMakeFiles/executeTests.dir/test/FeetTest.cpp.obj: CMakeFiles/executeTests.dir/includes_CXX.rsp
-CMakeFiles/executeTests.dir/test/FeetTest.cpp.obj: ../test/FeetTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Fellowship_CPP\Stage_3\QuantityMeasurement\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/executeTests.dir/test/FeetTest.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\executeTests.dir\test\FeetTest.cpp.obj -c F:\Fellowship_CPP\Stage_3\QuantityMeasurement\test\FeetTest.cpp
+CMakeFiles/executeTests.dir/main/model/Quantity.cpp.obj: CMakeFiles/executeTests.dir/flags.make
+CMakeFiles/executeTests.dir/main/model/Quantity.cpp.obj: CMakeFiles/executeTests.dir/includes_CXX.rsp
+CMakeFiles/executeTests.dir/main/model/Quantity.cpp.obj: ../main/model/Quantity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Fellowship_CPP\Stage_3\QuantityMeasurement\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/executeTests.dir/main/model/Quantity.cpp.obj"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\executeTests.dir\main\model\Quantity.cpp.obj -c F:\Fellowship_CPP\Stage_3\QuantityMeasurement\main\model\Quantity.cpp
 
-CMakeFiles/executeTests.dir/test/FeetTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/executeTests.dir/test/FeetTest.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Fellowship_CPP\Stage_3\QuantityMeasurement\test\FeetTest.cpp > CMakeFiles\executeTests.dir\test\FeetTest.cpp.i
+CMakeFiles/executeTests.dir/main/model/Quantity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/executeTests.dir/main/model/Quantity.cpp.i"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Fellowship_CPP\Stage_3\QuantityMeasurement\main\model\Quantity.cpp > CMakeFiles\executeTests.dir\main\model\Quantity.cpp.i
 
-CMakeFiles/executeTests.dir/test/FeetTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/executeTests.dir/test/FeetTest.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Fellowship_CPP\Stage_3\QuantityMeasurement\test\FeetTest.cpp -o CMakeFiles\executeTests.dir\test\FeetTest.cpp.s
+CMakeFiles/executeTests.dir/main/model/Quantity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/executeTests.dir/main/model/Quantity.cpp.s"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Fellowship_CPP\Stage_3\QuantityMeasurement\main\model\Quantity.cpp -o CMakeFiles\executeTests.dir\main\model\Quantity.cpp.s
+
+CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.obj: CMakeFiles/executeTests.dir/flags.make
+CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.obj: CMakeFiles/executeTests.dir/includes_CXX.rsp
+CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.obj: ../test/QuantityMeasurementTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Fellowship_CPP\Stage_3\QuantityMeasurement\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.obj"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\executeTests.dir\test\QuantityMeasurementTest.cpp.obj -c F:\Fellowship_CPP\Stage_3\QuantityMeasurement\test\QuantityMeasurementTest.cpp
+
+CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.i"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Fellowship_CPP\Stage_3\QuantityMeasurement\test\QuantityMeasurementTest.cpp > CMakeFiles\executeTests.dir\test\QuantityMeasurementTest.cpp.i
+
+CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.s"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Fellowship_CPP\Stage_3\QuantityMeasurement\test\QuantityMeasurementTest.cpp -o CMakeFiles\executeTests.dir\test\QuantityMeasurementTest.cpp.s
 
 # Object files for target executeTests
 executeTests_OBJECTS = \
-"CMakeFiles/executeTests.dir/main/Feet.cpp.obj" \
-"CMakeFiles/executeTests.dir/test/FeetTest.cpp.obj"
+"CMakeFiles/executeTests.dir/main/model/Unit.cpp.obj" \
+"CMakeFiles/executeTests.dir/main/model/Quantity.cpp.obj" \
+"CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.obj"
 
 # External object files for target executeTests
 executeTests_EXTERNAL_OBJECTS =
 
-executeTests.exe: CMakeFiles/executeTests.dir/main/Feet.cpp.obj
-executeTests.exe: CMakeFiles/executeTests.dir/test/FeetTest.cpp.obj
+executeTests.exe: CMakeFiles/executeTests.dir/main/model/Unit.cpp.obj
+executeTests.exe: CMakeFiles/executeTests.dir/main/model/Quantity.cpp.obj
+executeTests.exe: CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.obj
 executeTests.exe: CMakeFiles/executeTests.dir/build.make
 executeTests.exe: lib/libgtestd.a
 executeTests.exe: CMakeFiles/executeTests.dir/linklibs.rsp
 executeTests.exe: CMakeFiles/executeTests.dir/objects1.rsp
 executeTests.exe: CMakeFiles/executeTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\Fellowship_CPP\Stage_3\QuantityMeasurement\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable executeTests.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\Fellowship_CPP\Stage_3\QuantityMeasurement\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable executeTests.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\executeTests.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

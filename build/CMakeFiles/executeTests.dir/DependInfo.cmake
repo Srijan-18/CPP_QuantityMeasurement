@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/main/Feet.cpp" "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/build/CMakeFiles/executeTests.dir/main/Feet.cpp.obj"
-  "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/test/FeetTest.cpp" "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/build/CMakeFiles/executeTests.dir/test/FeetTest.cpp.obj"
+  "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/main/model/Quantity.cpp" "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/build/CMakeFiles/executeTests.dir/main/model/Quantity.cpp.obj"
+  "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/main/model/Unit.cpp" "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/build/CMakeFiles/executeTests.dir/main/model/Unit.cpp.obj"
+  "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/test/QuantityMeasurementTest.cpp" "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/build/CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
