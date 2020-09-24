@@ -6,5 +6,10 @@ bool Quantity::operator==(Quantity other) const
 {
     if (this->unit == other.unit)
         return this->value == other.value;
-    return (this->value * this -> unit.get_conversion_factor() == other.value * other.unit.get_conversion_factor());
+    return (this->convert_to_base() == other.convert_to_base());
+}
+
+double Quantity::convert_to_base() const
+{
+    return this->value * this -> unit.get_conversion_factor();
 }
