@@ -50,11 +50,19 @@ TEST(FeetTests, _given_one_feet_and_ten_inches_when_compared_should_return_false
 }
 
 //T.C 1.7
-TEST(FeetTests, _null_inch_and_one_inch__should_not_be_equal)
+TEST(InchTests, _null_inch_and_one_inch__should_not_be_equal)
 {
     const Unit *first_inch = &(Unit::INCH);
     Unit *null_inch = nullptr;
     ASSERT_FALSE(first_inch == null_inch);
+}
+
+//T.C 1.8
+TEST(InchTests, _same_inch_ref_when_compared__should_be_equal)
+{
+    const Unit *first_inch_ref = &(Unit::INCH);
+    const Unit *second_inch_ref = first_inch_ref;
+    ASSERT_EQ(first_inch_ref, second_inch_ref);
 }
 
 int main(int argc, char **argv)
