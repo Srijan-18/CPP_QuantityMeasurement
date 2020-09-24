@@ -2,55 +2,55 @@
 #include <gtest/gtest.h>
 
 //T.C 1.1
-TEST(FeetTests, _zero_feet_and_zero_feet__should_be_equal)
+TEST(FeetTests, given_zero_feet_and_zero_feet__should_be_equal)
 {
-    Quantity first_quantity(Unit::FEET, 0);
-    Quantity second_quantity(Unit::FEET, 0);
-    ASSERT_EQ(first_quantity, second_quantity);
+    Quantity first_feet(Unit::FEET, 0);
+    Quantity second_feet(Unit::FEET, 0);
+    ASSERT_EQ(first_feet, second_feet);
 }
 
 //T.C 1.2
-TEST(FeetTests, _null_feet_and_one_feet__should_not_be_equal)
+TEST(FeetTests, given_null_feet_and_one_feet__should_not_be_equal)
 {
-    const Unit *first_value = &(Unit::FEET);
-    Unit *second_value = nullptr;
-    ASSERT_FALSE(first_value == second_value);
+    const Unit *feet_reference = &(Unit::FEET);
+    Unit *null_unit_reference = nullptr;
+    ASSERT_FALSE(feet_reference == null_unit_reference);
 }
 
 //T.C 1.3
-TEST(FeetTests, _same_feet_ref_when_compared__should_be_equal)
+TEST(FeetTests, given_same_feet_ref_when_compared__should_be_equal)
 {
-    const Unit *first_ref = &(Unit::FEET);
-    const Unit *second_ref = first_ref;
-    ASSERT_EQ(first_ref, second_ref);
+    const Unit *first_feet_ref = &(Unit::FEET);
+    const Unit *second_feet_ref = first_feet_ref;
+    ASSERT_EQ(first_feet_ref, second_feet_ref);
 }
 
 //T.C 1.4
-TEST(FeetTests, _given_one_feet_one_inch_when_compared_should_not_be_equal)
+TEST(FeetTests, given_one_feet_one_inch_when_compared_should_not_be_equal)
 {
-    Quantity first_quantity(Unit::FEET, 1);
-    Quantity second_quantity(Unit::INCH, 1);
-    ASSERT_FALSE(first_quantity == second_quantity);
+    Quantity quantity_in_feet(Unit::FEET, 1);
+    Quantity quantity_in_inch(Unit::INCH, 1);
+    ASSERT_FALSE(quantity_in_feet == quantity_in_inch);
 }
 
 //T.C 1.5
-TEST(FeetTests, _given_one_feet_and_twelve_inches_when_compared_should_return_true)
+TEST(FeetTests, given_one_feet_and_twelve_inches_when_compared_should_return_true)
 {
-    Quantity first_quantity(Unit::FEET, 1.0);
-    Quantity second_quantity(Unit::INCH, 12.0);
-    ASSERT_TRUE(first_quantity == second_quantity);
+    Quantity quantity_in_feet(Unit::FEET, 1.0);
+    Quantity quantity_in_inch(Unit::INCH, 12.0);
+    ASSERT_TRUE(quantity_in_feet == quantity_in_inch);
 }
 
 //T.C 1.6
-TEST(FeetTests, _given_one_feet_and_ten_inches_when_compared_should_return_false)
+TEST(FeetTests, given_one_feet_and_ten_inches_when_compared_should_return_false)
 {
-    Quantity first_quantity(Unit::FEET, 1.0);
-    Quantity second_quantity(Unit::INCH, 10.0);
-    ASSERT_FALSE(first_quantity == second_quantity);
+    Quantity quantity_in_feet(Unit::FEET, 1.0);
+    Quantity quantity_in_inch(Unit::INCH, 10.0);
+    ASSERT_FALSE(quantity_in_feet == quantity_in_inch);
 }
 
 //T.C 1.7
-TEST(InchTests, _null_inch_and_one_inch__should_not_be_equal)
+TEST(InchTests, given_null_inch_and_one_inch_should_not_be_equal)
 {
     const Unit *first_inch = &(Unit::INCH);
     Unit *null_inch = nullptr;
@@ -58,7 +58,7 @@ TEST(InchTests, _null_inch_and_one_inch__should_not_be_equal)
 }
 
 //T.C 1.8
-TEST(InchTests, _same_inch_ref_when_compared_should_be_equal)
+TEST(InchTests, given_same_inch_ref_when_compared_should_be_equal)
 {
     const Unit *first_inch_ref = &(Unit::INCH);
     const Unit *second_inch_ref = first_inch_ref;
@@ -66,7 +66,7 @@ TEST(InchTests, _same_inch_ref_when_compared_should_be_equal)
 }
 
 //T.C 1.9
-TEST(InchTests, _given_one_inch_one_feet_when_compared_should_not_be_equal)
+TEST(InchTests, given_one_inch_one_feet_when_compared_should_not_be_equal)
 {
     Quantity quantity_in_feet(Unit::FEET, 1);
     Quantity quantity_in_inch(Unit::INCH, 1);
