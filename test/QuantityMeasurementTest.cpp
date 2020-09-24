@@ -73,6 +73,14 @@ TEST(InchTests, given_one_inch_one_feet_when_compared_should_not_be_equal)
     ASSERT_FALSE(quantity_in_feet == quantity_in_inch);
 }
 
+//T.C 1.10
+TEST(InchTests, given_ten_inch_and_ten_inch_when_compared_should_be_equal)
+{
+    Quantity first_quantity_in_inch(Unit::INCH, 10);
+    Quantity second_quantity_in_inch(Unit::INCH, 10);
+    ASSERT_TRUE(first_quantity_in_inch == second_quantity_in_inch);
+}
+
 int main(int argc, char **argv)
 {
     testing::InitGoogleTest(&argc, argv);
