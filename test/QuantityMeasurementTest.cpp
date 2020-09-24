@@ -58,11 +58,19 @@ TEST(InchTests, _null_inch_and_one_inch__should_not_be_equal)
 }
 
 //T.C 1.8
-TEST(InchTests, _same_inch_ref_when_compared__should_be_equal)
+TEST(InchTests, _same_inch_ref_when_compared_should_be_equal)
 {
     const Unit *first_inch_ref = &(Unit::INCH);
     const Unit *second_inch_ref = first_inch_ref;
     ASSERT_EQ(first_inch_ref, second_inch_ref);
+}
+
+//T.C 1.9
+TEST(InchTests, _given_one_inch_one_feet_when_compared_should_not_be_equal)
+{
+    Quantity quantity_in_feet(Unit::FEET, 1);
+    Quantity quantity_in_inch(Unit::INCH, 1);
+    ASSERT_FALSE(quantity_in_feet == quantity_in_inch);
 }
 
 int main(int argc, char **argv)
