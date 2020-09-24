@@ -49,6 +49,14 @@ TEST(FeetTests, _given_one_feet_and_ten_inches_when_compared_should_return_false
     ASSERT_FALSE(first_quantity == second_quantity);
 }
 
+//T.C 1.7
+TEST(FeetTests, _null_inch_and_one_inch__should_not_be_equal)
+{
+    const Unit *first_inch = &(Unit::INCH);
+    Unit *null_inch = nullptr;
+    ASSERT_FALSE(first_inch == null_inch);
+}
+
 int main(int argc, char **argv)
 {
     testing::InitGoogleTest(&argc, argv);
