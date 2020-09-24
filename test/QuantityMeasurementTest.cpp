@@ -68,41 +68,49 @@ TEST(InchTests, given_same_inch_ref_when_compared_should_be_equal)
 //T.C 1.9
 TEST(InchTests, given_one_inch_one_feet_when_compared_should_not_be_equal)
 {
-    Quantity quantity_in_feet(Unit::FEET, 1);
-    Quantity quantity_in_inch(Unit::INCH, 1);
+    Quantity quantity_in_feet(Unit::FEET, 1.0);
+    Quantity quantity_in_inch(Unit::INCH, 1.0);
     ASSERT_FALSE(quantity_in_feet == quantity_in_inch);
 }
 
 //T.C 1.10
 TEST(InchTests, given_ten_inch_and_ten_inch_when_compared_should_be_equal)
 {
-    Quantity first_quantity_in_inch(Unit::INCH, 10);
-    Quantity second_quantity_in_inch(Unit::INCH, 10);
+    Quantity first_quantity_in_inch(Unit::INCH, 10.0);
+    Quantity second_quantity_in_inch(Unit::INCH, 10.0);
     ASSERT_TRUE(first_quantity_in_inch == second_quantity_in_inch);
 }
 
 //T.C 1.13
 TEST(YardTests, given_three_feet_and_one_yard_when_equated_should_return_true)
 {
-    Quantity quantity_in_yard(Unit::YARD, 1);
-    Quantity quantity_in_feet(Unit::FEET, 3);
+    Quantity quantity_in_yard(Unit::YARD, 1.0);
+    Quantity quantity_in_feet(Unit::FEET, 3.0);
     ASSERT_TRUE(quantity_in_yard == quantity_in_feet);
 }
 
 //T.C 1.14
 TEST(YardTests, given_one_feet_and_one_yard_when_equated_should_return_false)
 {
-    Quantity quantity_in_yard(Unit::YARD, 1);
-    Quantity quantity_in_feet(Unit::FEET, 1);
+    Quantity quantity_in_yard(Unit::YARD, 1.0);
+    Quantity quantity_in_feet(Unit::FEET, 1.0);
     ASSERT_FALSE(quantity_in_yard == quantity_in_feet);
 }
 
 //T.C 1.15
 TEST(YardTests, given_one_inch_and_one_yard_when_equated_should_return_false)
 {
-    Quantity quantity_in_yard(Unit::YARD, 1);
-    Quantity quantity_in_inch(Unit::INCH, 1);
+    Quantity quantity_in_yard(Unit::YARD, 1.0);
+    Quantity quantity_in_inch(Unit::INCH, 1.0);
     ASSERT_FALSE(quantity_in_yard == quantity_in_inch);
+}
+
+//T.C 1.16
+TEST(YardTests, given_one_yard_and_thirty_six_inch_when_equated_should_return_true)
+{
+    Quantity quantity_in_yard(Unit::YARD, 1.0);
+    Quantity quantity_in_inch(Unit::INCH, 36.0);
+    ASSERT_TRUE(quantity_in_yard == quantity_in_inch);
 }
 
 int main(int argc, char **argv)
