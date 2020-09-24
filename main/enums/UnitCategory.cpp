@@ -1,4 +1,4 @@
 enum UnitCategory
 {
-    LENGTH
+    LENGTH, VOLUME
 };
