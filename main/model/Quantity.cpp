@@ -13,3 +13,8 @@ double Quantity::convert_to_base() const
 {
     return this->value * this -> unit.get_conversion_factor();
 }
+
+double Quantity::add_quantity(Quantity other) const
+{
+    return this->convert_to_base() + other.convert_to_base();
+}

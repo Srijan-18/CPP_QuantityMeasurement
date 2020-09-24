@@ -8,5 +8,6 @@ class Quantity
 
 public:
     Quantity(Unit, double);
-    bool operator==(Quantity) const; 
+    bool operator==(Quantity) const;
+    double add_quantity(Quantity) const; 
 };
