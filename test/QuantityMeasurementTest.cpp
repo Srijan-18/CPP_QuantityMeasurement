@@ -130,7 +130,7 @@ TEST(CmTests, given_four_inches_and_five_centimeters_when_equated_should_return_
 }
 
 //T.C for U.C 4 (2 inch + 2 inch = 4 inch)
-TEST(AdditionTests, give_two_inch_and_two_inch_when_added_should_return_four_inches)
+TEST(AdditionTests, given_two_inch_and_two_inch_when_added_should_return_four_inches)
 {
     Quantity first_inch_quantity(Unit::INCH, 2.0);
     Quantity second_inch_quantity(Unit::INCH, 2.0);
@@ -146,11 +146,19 @@ TEST(AdditionTests, given_one_foot_and_two_inch_when_added_should_return_fourtee
 }
 
 //T.C for U.C 4 (1 foot + 1 foot = 24 inch)
-TEST(AdditionTests, give_one_foot_and_one_foot_when_added_should_return_twenty_four_inches)
+TEST(AdditionTests, given_one_foot_and_one_foot_when_added_should_return_twenty_four_inches)
 {
     Quantity first_foot_quantity(Unit::FEET, 1.0);
     Quantity second_foot_quantity(Unit::FEET, 1.0);
     ASSERT_EQ(24.0, first_foot_quantity.add_quantity(second_foot_quantity));
+}
+
+//T.C for U.C 4 (2 inches + 2.5 cm = 3 inches)
+TEST(AdditionTests, given_two_inch_and_two_and_half_cm_when_added_should_return_three_inches)
+{
+    Quantity quantity_in_inch(Unit::INCH, 2.0);
+    Quantity quantity_in_cm(Unit::CM, 2.5);
+    ASSERT_EQ(3.0, quantity_in_inch.add_quantity(quantity_in_cm));
 }
 
 int main(int argc, char **argv)
