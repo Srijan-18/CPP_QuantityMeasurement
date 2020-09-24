@@ -145,6 +145,14 @@ TEST(AdditionTests, given_one_foot_and_two_inch_when_added_should_return_fourtee
     ASSERT_EQ(14.0, quantity_in_feet.add_quantity(quantity_in_inch));
 }
 
+//T.C for U.C 4 (1 foot + 1 foot = 24 inch)
+TEST(AdditionTests, give_one_foot_and_one_foot_when_added_should_return_twenty_four_inches)
+{
+    Quantity first_foot_quantity(Unit::FEET, 1.0);
+    Quantity second_foot_quantity(Unit::FEET, 1.0);
+    ASSERT_EQ(24.0, first_foot_quantity.add_quantity(second_foot_quantity));
+}
+
 int main(int argc, char **argv)
 {
     testing::InitGoogleTest(&argc, argv);
