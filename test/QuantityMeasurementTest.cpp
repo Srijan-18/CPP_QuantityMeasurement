@@ -113,6 +113,14 @@ TEST(YardTests, given_one_yard_and_thirty_six_inch_when_equated_should_return_tr
     ASSERT_TRUE(quantity_in_yard == quantity_in_inch);
 }
 
+//T.C for UC 3
+TEST(CmTests, given_two_inches_and_five_centimeters_when_equated_should_return_true)
+{
+    Quantity quantity_in_centimeter(Unit::CM, 5.0);
+    Quantity quantity_in_inch(Unit::INCH, 2.0);
+    ASSERT_TRUE(quantity_in_centimeter == quantity_in_inch);
+}
+
 int main(int argc, char **argv)
 {
     testing::InitGoogleTest(&argc, argv);
