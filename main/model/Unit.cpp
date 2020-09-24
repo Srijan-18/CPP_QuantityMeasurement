@@ -34,3 +34,4 @@ bool Unit::operator!=(Unit other) const
 }
 
 const Unit Unit::FEET(12.0);
+const Unit Unit::INCH(1.0);
