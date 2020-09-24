@@ -33,6 +33,22 @@ TEST(FeetTests, _given_one_feet_one_inch_when_compared_should_not_be_equal)
     ASSERT_FALSE(first_quantity == second_quantity);
 }
 
+//T.C 1.5
+TEST(FeetTests, _given_one_feet_and_twelve_inches_when_compared_should_return_true)
+{
+    Quantity first_quantity(Unit::FEET, 1.0);
+    Quantity second_quantity(Unit::INCH, 12.0);
+    ASSERT_TRUE(first_quantity == second_quantity);
+}
+
+//T.C 1.6
+TEST(FeetTests, _given_one_feet_and_ten_inches_when_compared_should_return_false)
+{
+    Quantity first_quantity(Unit::FEET, 1.0);
+    Quantity second_quantity(Unit::INCH, 10.0);
+    ASSERT_FALSE(first_quantity == second_quantity);
+}
+
 int main(int argc, char **argv)
 {
     testing::InitGoogleTest(&argc, argv);
