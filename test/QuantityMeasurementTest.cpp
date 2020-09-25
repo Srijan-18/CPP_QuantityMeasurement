@@ -209,6 +209,14 @@ TEST(WeightTests, given_one_tonne_and_one_thousand_kilo_grams_when_equated_shoul
     ASSERT_EQ(quantity_in_kilo_grams, quantity_in_tonne);
 }
 
+//T.C for U.C 6 (1 tonne + 1000 gm = 1001 kg)
+TEST(WeightAdditionTests, given_one_tonne_and_one_thousand_grams_when_added_should_return_one_thousand_one)
+{
+    Quantity quantity_in_grams(Unit::GRAMS, 1000.0);
+    Quantity quantity_in_tonne(Unit::TONNE, 1);
+    ASSERT_EQ(1001, quantity_in_grams.add_quantity(quantity_in_tonne));
+}
+
 int main(int argc, char **argv)
 {
     testing::InitGoogleTest(&argc, argv);
