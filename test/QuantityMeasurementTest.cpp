@@ -161,6 +161,14 @@ TEST(AdditionTests, given_two_inch_and_two_and_half_cm_when_added_should_return_
     ASSERT_EQ(3.0, quantity_in_inch.add_quantity(quantity_in_cm));
 }
 
+//T.C for U.C 5 (1 gallon = 3.78 litres)
+TEST(VolumeTests, given_one_gallon_and_equivalent_value_in_litres_when_equated_should_return_true)
+{
+    Quantity quantity_in_litres(Unit::LITRE, 3.78);
+    Quantity quantity_in_gallons(Unit::GALLON, 1.0);
+    ASSERT_EQ(quantity_in_litres, quantity_in_gallons);
+}
+
 int main(int argc, char **argv)
 {
     testing::InitGoogleTest(&argc, argv);
