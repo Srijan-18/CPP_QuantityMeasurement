@@ -42,3 +42,5 @@ const Unit Unit::FEET(UnitCategory::LENGTH, 12.0);
 const Unit Unit::INCH(UnitCategory::LENGTH, 1.0);
 const Unit Unit::YARD(UnitCategory::LENGTH, 36.0);
 const Unit Unit::CM(UnitCategory::LENGTH, 0.4);
+const Unit Unit::LITRE(UnitCategory::VOLUME, 1.0);
+const Unit Unit::GALLON(UnitCategory::VOLUME, 3.78);
