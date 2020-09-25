@@ -225,6 +225,14 @@ TEST(TemperatureTests, given_two_hundered_twelve_Farenheit_and_one_hundered_cels
     ASSERT_TRUE(quantity_in_celsius == quantity_in_farenheit);
 }
 
+//Negative Test Case for addition.
+TEST(AdditionTests, given_one_inch_and_one_litre_when_added_should_return_minus_one)
+{
+    Quantity quantity_in_inch(Unit::INCH, 1.0);
+    Quantity quantity_in_litre(Unit::LITRE, 1.0);
+    ASSERT_EQ(-1.0, quantity_in_inch.add_quantity(quantity_in_litre));
+}
+
 int main(int argc, char **argv)
 {
     testing::InitGoogleTest(&argc, argv);

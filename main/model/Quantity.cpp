@@ -12,19 +12,21 @@ bool Quantity::operator==(Quantity other) const
 
 double Quantity::convert_to_base() const
 {
-    if(this->unit.get_unit_category() == UnitCategory::TEMPERATURE)
+    if (this->unit.get_unit_category() == UnitCategory::TEMPERATURE)
         return this->temperature_conversion();
     return this->value * this->unit.get_conversion_factor();
 }
 
 double Quantity::temperature_conversion() const
 {
-    if(this->unit.get_conversion_factor() == 1.8)
-        return((this->value * this->unit.get_conversion_factor()) + 32 );
-    return this->value;     
+    if (this->unit.get_conversion_factor() == 1.8)
+        return ((this->value * this->unit.get_conversion_factor()) + 32);
+    return this->value;
 }
 
 double Quantity::add_quantity(Quantity other) const
 {
-    return this->convert_to_base() + other.convert_to_base();
+    if (this->unit.get_unit_category() == other.unit.get_unit_category())
+        return this->convert_to_base() + other.convert_to_base();
+    return -1.0;    
 }
