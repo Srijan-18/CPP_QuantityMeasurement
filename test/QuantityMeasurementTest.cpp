@@ -177,6 +177,14 @@ TEST(VolumeTests, given_one_litres_and_equivalent_value_in_milli_litres_when_equ
     ASSERT_EQ(quantity_in_litres, quantity_in_milli_litres);
 }
 
+//T.C for U.C 6 (1 gallon + 3.78 litres = 7.56 litres)
+TEST(VolumeAdditionTests, given_three_point_seven_eight_litres_and_one_gallon_when_added_should_return_seven_point_five_six)
+{
+    Quantity quantity_in_litres(Unit::LITRE, 3.78);
+    Quantity quantity_in_gallon(Unit::GALLON, 1);
+    ASSERT_EQ(7.56, quantity_in_litres.add_quantity(quantity_in_gallon));
+}
+
 int main(int argc, char **argv)
 {
     testing::InitGoogleTest(&argc, argv);
