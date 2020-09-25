@@ -185,6 +185,14 @@ TEST(VolumeAdditionTests, given_three_point_seven_eight_litres_and_one_gallon_wh
     ASSERT_EQ(7.56, quantity_in_litres.add_quantity(quantity_in_gallon));
 }
 
+//T.C for U.C 6 (1 litre + 1000 millilitres = 2 litres)
+TEST(VolumeAdditionTests, given_one_litres_and_one_thousand_milli_litres_when_added_should_return_two)
+{
+    Quantity quantity_in_litres(Unit::LITRE, 1);
+    Quantity quantity_in_milli_litres(Unit::MILLI_LITRE, 1000);
+    ASSERT_EQ(2.0, quantity_in_litres.add_quantity(quantity_in_milli_litres));
+}
+
 int main(int argc, char **argv)
 {
     testing::InitGoogleTest(&argc, argv);
