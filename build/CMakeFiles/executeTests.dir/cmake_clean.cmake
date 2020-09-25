@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/executeTests.dir/main/enums/UnitCategory.cpp.obj"
   "CMakeFiles/executeTests.dir/main/model/Quantity.cpp.obj"
   "CMakeFiles/executeTests.dir/main/model/Unit.cpp.obj"
   "CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.obj"

@@ -4,10 +4,10 @@ class Quantity
 {
     Unit unit;
     double value;
-    double convert_to_base() const;
 
 public:
+    double convert_to_base() const;
     Quantity(Unit, double);
     bool operator==(Quantity) const;
-    double add_quantity(Quantity) const; 
+    double add_quantity(Quantity) const;
 };

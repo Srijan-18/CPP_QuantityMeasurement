@@ -166,7 +166,15 @@ TEST(VolumeTests, given_one_gallon_and_equivalent_value_in_litres_when_equated_s
 {
     Quantity quantity_in_litres(Unit::LITRE, 3.78);
     Quantity quantity_in_gallons(Unit::GALLON, 1.0);
-    ASSERT_EQ(quantity_in_litres, quantity_in_gallons);
+    ASSERT_TRUE(quantity_in_litres == quantity_in_gallons);
+}
+
+//T.C for U.C 5 (1 litres = 1000 milli litres)
+TEST(VolumeTests, given_one_litres_and_equivalent_value_in_milli_litres_when_equated_should_return_true)
+{
+    Quantity quantity_in_litres(Unit::LITRE, 1);
+    Quantity quantity_in_milli_litres(Unit::MILLI_LITRE, 1000);
+    ASSERT_EQ(quantity_in_litres, quantity_in_milli_litres);
 }
 
 int main(int argc, char **argv)

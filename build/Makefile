@@ -239,6 +239,33 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest_main.dir\build.make googletest/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
+main/enums/UnitCategory.obj: main/enums/UnitCategory.cpp.obj
+
+.PHONY : main/enums/UnitCategory.obj
+
+# target to build an object file
+main/enums/UnitCategory.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/enums/UnitCategory.cpp.obj
+.PHONY : main/enums/UnitCategory.cpp.obj
+
+main/enums/UnitCategory.i: main/enums/UnitCategory.cpp.i
+
+.PHONY : main/enums/UnitCategory.i
+
+# target to preprocess a source file
+main/enums/UnitCategory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/enums/UnitCategory.cpp.i
+.PHONY : main/enums/UnitCategory.cpp.i
+
+main/enums/UnitCategory.s: main/enums/UnitCategory.cpp.s
+
+.PHONY : main/enums/UnitCategory.s
+
+# target to generate assembly for a file
+main/enums/UnitCategory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/enums/UnitCategory.cpp.s
+.PHONY : main/enums/UnitCategory.cpp.s
+
 main/model/Quantity.obj: main/model/Quantity.cpp.obj
 
 .PHONY : main/model/Quantity.obj
@@ -337,6 +364,9 @@ help:
 	@echo ... gmock_main
 	@echo ... gtest
 	@echo ... gtest_main
+	@echo ... main/enums/UnitCategory.obj
+	@echo ... main/enums/UnitCategory.i
+	@echo ... main/enums/UnitCategory.s
 	@echo ... main/model/Quantity.obj
 	@echo ... main/model/Quantity.i
 	@echo ... main/model/Quantity.s

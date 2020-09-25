@@ -11,6 +11,7 @@ add_executable(executeTests
                 main/model/Unit.cpp 
                 main/model/Quantity.h 
                 main/model/Quantity.cpp 
+                main/enums/UnitCategory.cpp
                 test/QuantityMeasurementTest.cpp) 
                 
 target_link_libraries(executeTests PRIVATE gtest)

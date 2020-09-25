@@ -16,8 +16,6 @@ UnitCategory Unit::get_unit_category() const
 
 bool Unit::operator==(Unit other) const
 {
-        if (this->unit_category != other.unit_category)
-                return false;
         return (this->conversion_factor == other.conversion_factor);
 }
 
@@ -44,4 +42,4 @@ const Unit Unit::YARD(UnitCategory::LENGTH, 36.0);
 const Unit Unit::CM(UnitCategory::LENGTH, 0.4);
 const Unit Unit::LITRE(UnitCategory::VOLUME, 1.0);
 const Unit Unit::GALLON(UnitCategory::VOLUME, 3.78);
-const Unit Unit::MILLI_LITRE(UnitCategory::VOLUME, 1000.0);
+const Unit Unit::MILLI_LITRE(UnitCategory::VOLUME, 0.001);

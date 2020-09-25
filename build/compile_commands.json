@@ -11,6 +11,11 @@
 },
 {
   "directory": "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/executeTests.dir/includes_CXX.rsp -g -o CMakeFiles\\executeTests.dir\\main\\enums\\UnitCategory.cpp.obj -c F:\\Fellowship_CPP\\Stage_3\\QuantityMeasurement\\main\\enums\\UnitCategory.cpp",
+  "file": "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/main/enums/UnitCategory.cpp"
+},
+{
+  "directory": "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/build",
   "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/executeTests.dir/includes_CXX.rsp -g -o CMakeFiles\\executeTests.dir\\test\\QuantityMeasurementTest.cpp.obj -c F:\\Fellowship_CPP\\Stage_3\\QuantityMeasurement\\test\\QuantityMeasurementTest.cpp",
   "file": "F:/Fellowship_CPP/Stage_3/QuantityMeasurement/test/QuantityMeasurementTest.cpp"
 },
