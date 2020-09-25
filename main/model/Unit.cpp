@@ -43,3 +43,5 @@ const Unit Unit::CM(UnitCategory::LENGTH, 0.4);
 const Unit Unit::LITRE(UnitCategory::VOLUME, 1.0);
 const Unit Unit::GALLON(UnitCategory::VOLUME, 3.78);
 const Unit Unit::MILLI_LITRE(UnitCategory::VOLUME, 0.001);
+const Unit Unit::KILO_GRAMS(UnitCategory::WEIGHT, 1.0);
+const Unit Unit::GRAMS(UnitCategory::WEIGHT, 0.001);

@@ -14,5 +14,5 @@ public:
     double get_conversion_factor() const;
     UnitCategory get_unit_category() const;
 
-    static const Unit FEET, INCH, YARD, CM, LITRE, GALLON, MILLI_LITRE;
+    static const Unit FEET, INCH, YARD, CM, LITRE, GALLON, MILLI_LITRE, KILO_GRAMS, GRAMS;
 };
