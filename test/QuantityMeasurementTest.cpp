@@ -201,6 +201,14 @@ TEST(WeightTests, given_one_kilo_grams_and_one_thousand_grams_when_equated_shoul
     ASSERT_EQ(quantity_in_kilo_grams, quantity_in_grams);
 }
 
+//T.C for U.C 6 (1 tonne = 1000 kilo grams)
+TEST(WeightTests, given_one_tonne_and_one_thousand_kilo_grams_when_equated_should_return_true)
+{
+    Quantity quantity_in_kilo_grams(Unit::KILO_GRAMS, 1000.0);
+    Quantity quantity_in_tonne(Unit::TONNE, 1);
+    ASSERT_EQ(quantity_in_kilo_grams, quantity_in_tonne);
+}
+
 int main(int argc, char **argv)
 {
     testing::InitGoogleTest(&argc, argv);
