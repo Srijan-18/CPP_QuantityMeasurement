@@ -193,7 +193,7 @@ TEST(VolumeAdditionTests, given_one_litres_and_one_thousand_milli_litres_when_ad
     ASSERT_EQ(2.0, quantity_in_litres.add_quantity(quantity_in_milli_litres));
 }
 
-//T.C for U.C 6 (1 kilo gram = 1000 grams)
+//T.C for U.C 7 (1 kilo gram = 1000 grams)
 TEST(WeightTests, given_one_kilo_grams_and_one_thousand_grams_when_equated_should_return_true)
 {
     Quantity quantity_in_kilo_grams(Unit::KILO_GRAMS, 1);
@@ -201,7 +201,7 @@ TEST(WeightTests, given_one_kilo_grams_and_one_thousand_grams_when_equated_shoul
     ASSERT_EQ(quantity_in_kilo_grams, quantity_in_grams);
 }
 
-//T.C for U.C 6 (1 tonne = 1000 kilo grams)
+//T.C for U.C 7 (1 tonne = 1000 kilo grams)
 TEST(WeightTests, given_one_tonne_and_one_thousand_kilo_grams_when_equated_should_return_true)
 {
     Quantity quantity_in_kilo_grams(Unit::KILO_GRAMS, 1000.0);
@@ -209,13 +209,14 @@ TEST(WeightTests, given_one_tonne_and_one_thousand_kilo_grams_when_equated_shoul
     ASSERT_EQ(quantity_in_kilo_grams, quantity_in_tonne);
 }
 
-//T.C for U.C 6 (1 tonne + 1000 gm = 1001 kg)
+//T.C for U.C 7 (1 tonne + 1000 gm = 1001 kg)
 TEST(WeightAdditionTests, given_one_tonne_and_one_thousand_grams_when_added_should_return_one_thousand_one)
 {
     Quantity quantity_in_grams(Unit::GRAMS, 1000.0);
     Quantity quantity_in_tonne(Unit::TONNE, 1);
     ASSERT_EQ(1001, quantity_in_grams.add_quantity(quantity_in_tonne));
 }
+
 
 int main(int argc, char **argv)
 {
