@@ -1,4 +1,4 @@
 enum UnitCategory
 {
-    LENGTH, VOLUME, WEIGHT
+    LENGTH, VOLUME, WEIGHT, TEMPERATURE
 };

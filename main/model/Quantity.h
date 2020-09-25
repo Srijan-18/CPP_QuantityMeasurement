@@ -4,6 +4,7 @@ class Quantity
 {
     Unit unit;
     double value;
+    double temperature_conversion() const;
 
 public:
     double convert_to_base() const;

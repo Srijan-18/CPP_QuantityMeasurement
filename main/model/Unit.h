@@ -16,5 +16,6 @@ public:
 
     static const Unit FEET, INCH, YARD, CM, 
                       LITRE, GALLON, MILLI_LITRE, 
-                      KILO_GRAMS, GRAMS, TONNE;
+                      KILO_GRAMS, GRAMS, TONNE,
+                      FARENHEIT, CELSIUS;
 };

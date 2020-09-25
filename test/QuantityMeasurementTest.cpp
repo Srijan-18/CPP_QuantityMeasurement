@@ -217,6 +217,13 @@ TEST(WeightAdditionTests, given_one_tonne_and_one_thousand_grams_when_added_shou
     ASSERT_EQ(1001, quantity_in_grams.add_quantity(quantity_in_tonne));
 }
 
+//T.C for U.C 8 (212 F = 100 C)
+TEST(TemperatureTests, given_two_hundered_twelve_Farenheit_and_one_hundered_celsius_when_equated_should_return_true)
+{
+    Quantity quantity_in_farenheit(Unit::FARENHEIT, 212);
+    Quantity quantity_in_celsius(Unit::CELSIUS, 100);
+    ASSERT_TRUE(quantity_in_celsius == quantity_in_farenheit);
+}
 
 int main(int argc, char **argv)
 {

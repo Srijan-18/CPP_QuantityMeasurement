@@ -46,3 +46,5 @@ const Unit Unit::MILLI_LITRE(UnitCategory::VOLUME, 0.001);
 const Unit Unit::KILO_GRAMS(UnitCategory::WEIGHT, 1.0);
 const Unit Unit::GRAMS(UnitCategory::WEIGHT, 0.001);
 const Unit Unit::TONNE(UnitCategory::WEIGHT, 1000.0);
+const Unit Unit::FARENHEIT(UnitCategory::TEMPERATURE, 1.0);
+const Unit Unit::CELSIUS(UnitCategory::TEMPERATURE, 1.8);
